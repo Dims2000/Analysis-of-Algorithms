@@ -31,7 +31,10 @@ public class Probono {
     private static ArrayList<ArrayList<Integer>> M = new ArrayList<>();
 
     /**
-     * 
+     * This is the main method in the program that sorts the array of jobs by
+     * endTime, populates the P array, then populates the M array. Finally, the
+     * result (largest number of non-overlapping jobs with at least 1 pro bono
+     * job) is printed as it is the last element in the M array.
      * 
      * @param args command line arguments (not applicable)
      */
