@@ -185,7 +185,8 @@ public class Probono {
         int leftPointer = 0;
         int rightPointer = 0;
 
-        while (leftList.size() > leftPointer && rightList.size() > rightPointer) {
+        while (leftList.size() > leftPointer && 
+        rightList.size() > rightPointer) {
             if (leftList.get(leftPointer).get(1) > 
                 rightList.get(rightPointer).get(1)) {
                 

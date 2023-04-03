@@ -1,6 +1,14 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * CountLIS is class containing a solution to CSCI-261 Homework 4 Question 3.
+ *
+ * This program takes in a sequence of integers and outputs the maximum number
+ * of longest increasing subsequqnces for the given integers.
+ *
+ * @author Max Burdett(mkb8422)
+ */
 public class CountLIS {
 
     public static void main(String[] args) {
